@@ -1,0 +1,175 @@
+.projects-section {
+    background: #0e0e0e;
+    padding: 5rem 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .projects-title {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(45deg, #00f2fe, #4facfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    background: #1a1a1a;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #333;
+  }
+  
+  .project-name {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    font-weight: 600;
+  }
+  
+  .project-tech {
+    color: #ccc;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-btn {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.6rem 1.4rem;
+    background: linear-gradient(to right, #00f2fe, #4facfe);
+    color: #0e0e0e;
+    font-weight: 600;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .project-btn:hover {
+    transform: scale(1.05);
+  }
+
+  .more-projects-btn {
+    margin-top: 3rem;
+  }
+  
+  .view-more-github-btn {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, #00f2fe, #4facfe);
+    color: #0e0e0e;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .view-more-github-btn:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+  }
+
+  .more-projects-heading {
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .certifications-section {
+    margin-top: 4rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .cert-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cert-text {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    margin-inline: auto;
+  }
+  
+  .cert-btn {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .cert-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #0072ff, #00c6ff);
+  }
+  
+  .cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .cert-img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .cert-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Hidden by default */
+  .hidden {
+    display: none;
+  }
+  
+  

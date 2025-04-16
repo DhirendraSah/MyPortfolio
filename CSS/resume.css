@@ -1,0 +1,63 @@
+.resume-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #0f0f0f, #1c1c1c); /* Deep black gradient */
+    text-align: center;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .resume-title {
+    font-size: 2.5rem;
+    color: #09e1c1;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .resume-text {
+    font-size: 1.2rem;
+    color: #dcdcdc;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+  }
+  
+  .resume-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .resume-btn {
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px rgba(255, 255, 255, 0.2);
+  }
+  
+  .view-btn {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+  }
+  
+  .download-btn {
+    background: linear-gradient(to right, #f953c6, #b91d73);
+  }
+  
+  .resume-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+  }
+  

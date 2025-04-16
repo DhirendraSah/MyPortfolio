@@ -1,0 +1,261 @@
+.about-me {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    padding: 80px 60px;
+    color: #e0e0e0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .about-title {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #00f0ff;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+  }
+  
+  .about-box {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #121212;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.1);
+  }
+  
+  .about-text h3.about-name {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .about-text h3 span {
+    color: #8a2be2;
+    text-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #ccc;
+  }
+  
+  .about-text strong {
+    color: #00f0ff;
+    font-weight: 600;
+  }
+  
+  .about-bio {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #bbb;
+    border-left: 3px solid #00f0ff;
+    padding-left: 15px;
+  }
+  .education-section {
+    margin-top: 60px;
+  }
+  
+  .education-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #00f0ff;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+    text-align: center;
+  }
+  
+  .education-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+  .edu-card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 5px solid #8a2be2;
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .edu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.2);
+  }
+  
+  .edu-card h4 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 8px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .edu-card p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
+  .edu-card strong {
+    color: #00f0ff;
+    font-weight: 600;
+  }
+
+  .skills-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: #111010;
+    border-radius: 1rem;
+  }
+  
+  .skills-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #0ea1d2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .skills-column {
+    background: rgb(4, 8, 98);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+  }
+  
+  .column-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #f9efef;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .skill-card {
+    margin: 0.5rem 0;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Gradient backgrounds */
+  .gradient-blue {
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  }
+  
+  .gradient-orange {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+  }
+  
+  .gradient-purple {
+    background: linear-gradient(135deg, #cc2b5e, #753a88);
+  }
+  
+  .gradient-green {
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+  }
+  
+  .gradient-pink {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  }
+  
+  .gradient-teal {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+  }
+
+  .language-interest-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: #151618;
+    border-radius: 1rem;
+  }
+  
+  .lang-interest-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #6aac0c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .lang-interest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .lang-box,
+  .interest-box {
+    background: #0b3080;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(243, 240, 240, 0.06);
+  }
+  
+  .language-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .lang-item {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  .stars {
+    color: #f5c518;
+    font-family: 'Segoe UI Symbol', sans-serif;
+  }
+  
+  .interest-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .interest-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .interest-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* You already have gradient colors for these classes */
+  
